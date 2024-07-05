@@ -4,3 +4,33 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Generics */
+header{
+    background-color: blue;
+}
+
+/* utils */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    margin: auto;
+}
+
+/* header  */
+.logo{
+    border: 1px solid black;
+    margin: 10px 0;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.accedi-button{
+    border: 1px solid black;
+}
