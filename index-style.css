@@ -21,16 +21,34 @@ header{
 
 /* header  */
 .logo{
-    border: 1px solid black;
+    color: white;
+    border: 1px solid white;
     margin: 10px 0;
 }
 
 nav{
+    color: white;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-grow: 1;
 }
 
 .accedi-button{
-    border: 1px solid black;
+    color: white;
+    border: 1px dashed white;
+}
+
+/* title container */
+.title-bg{
+    display: flex;
+    justify-content: center;
+    background-color: lightgreen;
+}
+
+.title.container{
+    background-color: green;
+    min-height: 300px;
+    width: 600px;
+    margin: 20px auto;
+
 }
