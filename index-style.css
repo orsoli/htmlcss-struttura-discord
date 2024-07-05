@@ -52,3 +52,42 @@ nav{
     margin: 20px auto;
 
 }
+
+/* main */
+.white-bg{
+}
+
+.gray-bg{
+    background-color: lightgray;
+}
+
+.gray-bg>.card.container{
+    flex-direction: row-reverse;
+}
+
+.card.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 0;
+}
+
+.img{
+    background-color: rgb(58, 47, 47);
+    width: 60%;
+    min-height: 300px;
+}
+
+.txt{
+    background-color: yellow;
+    width: 40%;
+    min-height: 300px;
+}
+
+.download-app{
+    background-color: aqua;
+    width: 100%;
+    min-height: 400px;
+}
+
