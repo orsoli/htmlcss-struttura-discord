@@ -10,10 +10,18 @@ header{
     background-color: blue;
 }
 
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    gap: 20px;
+    padding: 50px 0;
+}
+
 /* utils */
 .container{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     width: 900px;
     margin: auto;
@@ -33,7 +41,7 @@ nav{
     flex-grow: 1;
 }
 
-.accedi-button{
+.button{
     color: white;
     border: 1px dashed white;
 }
@@ -91,3 +99,19 @@ nav{
     min-height: 400px;
 }
 
+/* footer  */
+.column{
+    background-color: blueviolet;
+    border: 1px dashed white;
+    flex-grow: 1;
+    height: 300px;
+}
+
+.column.contact{
+    flex-grow: 2;
+    background-color: purple;
+}
+
+.hr{
+    border: 1px solid lightgray;
+}
