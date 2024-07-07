@@ -23,7 +23,7 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 900px;
+    width: 70%;
     margin: auto;
 }
 
@@ -56,15 +56,12 @@ nav{
 .title.container{
     background-color: green;
     min-height: 300px;
-    width: 600px;
+    max-width: 50%;
     margin: 20px auto;
 
 }
 
 /* main */
-.white-bg{
-}
-
 .gray-bg{
     background-color: lightgray;
 }
@@ -76,20 +73,20 @@ nav{
 .card.container{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     gap: 10px;
     padding: 20px 0;
 }
 
 .img{
     background-color: rgb(58, 47, 47);
-    width: 60%;
+    flex-grow: 2;
     min-height: 300px;
 }
 
 .txt{
     background-color: yellow;
-    width: 40%;
+    flex-grow: 1;
     min-height: 300px;
 }
 
@@ -104,7 +101,7 @@ nav{
     background-color: blueviolet;
     border: 1px dashed white;
     flex-grow: 1;
-    height: 300px;
+    min-height: 300px;
 }
 
 .column.contact{
