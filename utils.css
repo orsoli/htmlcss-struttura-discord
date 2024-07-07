@@ -1,0 +1,42 @@
+/* custom properties  */
+:root{
+    /* min-height  */
+    --height: 300px;
+    --app-height:400px;
+
+    /* colors  */
+    --primary-color: white;
+    --header-color: blue;
+    --footer-color: black; 
+    --titl-bg: lightgreen; 
+    --titl-cont: green; 
+    --card-bg: lightgray; 
+    --img-bg: rgb(58, 47, 47); 
+    --txt-bg: yellow; 
+    --app-bg: aqua; 
+    --ftr-clmn: purple; 
+    
+
+    /* boeders  */
+    --brd-dashed: 1px dashed var(--primary-color);
+    --brd-solid: 1px solid var(--primary-color);
+
+
+    /* gap dimensions  */
+    --gap-sm: 10px;
+    --gap-md: 20px;
+    --gap-lg: 30px;
+
+
+    /* margin dimensions  */
+    --marg-sm: 10px;
+    --marg-md: 20px;
+    --marg-lg: 30px;
+
+
+    /* padding dimensions  */
+    --padd-sm: 20px;
+    --padd-md: 30px;
+    --padd-lg: 50px;
+}   
+
